@@ -166,13 +166,9 @@ class AuthService:
         """Atualiza configuração da máquina atual"""
         if not self.is_authenticated():
             return APIResponse(False, error="Usuário não autenticado")
-        
-        machine_info = self.get_machine_info()
-        return self.api_client.update_machine_config(
-            mac_address=machine_info["mac_address"],
-            config=config,
-            auth_token=self._auth_token
-        )
+
+        logger.info("Atualizando configuração da máquina com verificação de autenticação")
+        return self.update_machine_configuration(config)
     
     def send_system_data(self, system_data: Dict) -> APIResponse:
         """Envia dados do sistema para a API"""
