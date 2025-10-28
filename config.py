@@ -7,7 +7,10 @@ from typing import Dict, Any
 
 # Configurações da API
 API_CONFIG = {
-    "base_url": os.getenv("ROCKS_API_URL", "https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev"),
+    "base_url": os.getenv(
+        "ROCKS_API_URL",
+        "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev",
+    ),
     "timeout": 10,
     "user_agent": "Rocks-Monitoramento-Desktop/1.0"
 }
@@ -61,7 +64,8 @@ FILE_CONFIG = {
     "system_data_file": os.path.join("data", "dados_sistema.json"),
     "log_file": os.path.join("data", "rocks_monitoramento.log"),
     "machine_config_file": os.path.join("data", "configuracao_maquina.json"),
-    "background_monitor_script": os.path.join("scripts", "background_monitor.py")
+    "background_monitor_script": os.path.join("scripts", "background_monitor.py"),
+    "auth_state_file": os.path.join("data", "auth_state.json"),
 }
 
 def get_config() -> Dict[str, Any]:

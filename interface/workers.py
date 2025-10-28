@@ -144,16 +144,17 @@ class SystemMonitoringWorker(QThread):
     def send_system_data(self, system_data: Dict[str, Any]):
         """Envia dados do sistema para a API"""
         try:
-            from api.api_client import APIClient
-            
             # Preparar payload
             payload = {
                 "data": system_data
             }
             
             # Enviar via PUT para /api/maquina/status
-            api_client = APIClient()
-            response = api_client.update_machine_status(payload)
+            api_client = self.auth_service.api_client
+            response = api_client.update_machine_status(
+                payload,
+                auth_token=self.auth_service.get_auth_token()
+            )
             
             if response.success:
                 logger.debug("Dados do sistema enviados com sucesso")

@@ -5,15 +5,69 @@ Script para testar o monitoramento contínuo diretamente
 import time
 import requests
 import json
+import socket
+import platform
+import uuid
 from datetime import datetime
 from monitoramento.system_monitor import SystemMonitor
+
+LOGIN_URL = "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev/api/login"
+METRICS_URL = "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev/api/maquina/status"
+EMAIL = "developer@rocks.com"
+PASSWORD = "Dev@Rocks2025"
+
+
+def get_mac_address() -> str:
+    try:
+        mac = ':'.join(['{:02x}'.format((uuid.getnode() >> elements) & 0xff)
+                       for elements in range(0, 2 * 6, 2)][::-1])
+        return mac.upper()
+    except Exception:
+        return "00:00:00:00:00:00"
+
+
+def get_username() -> str:
+    try:
+        return socket.gethostname()
+    except Exception:
+        return "Teste-Continuo"
+
+
+def get_operating_system() -> str:
+    try:
+        system = platform.system()
+        release = platform.release()
+        return f"{system} {release}"
+    except Exception:
+        return "Linux"
+
+
+def authenticate() -> str:
+    payload = {
+        "email": EMAIL,
+        "password": PASSWORD,
+        "mac_address": get_mac_address(),
+        "username": get_username(),
+        "c": get_operating_system(),
+    }
+
+    response = requests.post(
+        LOGIN_URL,
+        json=payload,
+        headers={"Content-Type": "application/json", "User-Agent": "Rocks-Monitoramento-Desktop/1.0"},
+        timeout=10,
+    )
+
+    response.raise_for_status()
+    data = response.json()
+    return data.get("token", "")
 
 def test_continuous_monitoring():
     """Testa o monitoramento contínuo"""
     
     # URL do endpoint
-    url = "https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev/api/maquina/status"
-    
+    token = authenticate()
+
     # Configuração de monitoramento
     frequency = 5  # segundos
     monitored_status = {
@@ -29,7 +83,7 @@ def test_continuous_monitoring():
     system_monitor = SystemMonitor()
     
     print("🚀 Iniciando monitoramento contínuo...")
-    print(f"📡 URL: {url}")
+    print(f"📡 URL: {METRICS_URL}")
     print(f"⏱️ Frequência: {frequency} segundos")
     print(f"📊 Status monitorados: {list(monitored_status.keys())}")
     print("=" * 60)
@@ -62,9 +116,10 @@ def test_continuous_monitoring():
             
             # Adicionar informações da máquina
             system_data["machine_info"] = {
-                "hostname": "Teste-Continuo",
-                "mac_address": "50-A1-32-1E-44-FC",
-                "operating_system": "Windows 11 (11)"
+                "hostname": get_username(),
+                "mac_address": get_mac_address(),
+                "mac": get_mac_address(),
+                "operating_system": get_operating_system()
             }
             system_data["timestamp"] = datetime.now().isoformat()
             
@@ -91,11 +146,12 @@ def test_continuous_monitoring():
             try:
                 # Fazer requisição PUT
                 response = requests.put(
-                    url,
+                    METRICS_URL,
                     json=payload,
                     headers={
                         "Content-Type": "application/json",
-                        "User-Agent": "Rocks-Monitoramento-Desktop/1.0"
+                        "User-Agent": "Rocks-Monitoramento-Desktop/1.0",
+                        "Authorization": f"Bearer {token}",
                     },
                     timeout=10
                 )
