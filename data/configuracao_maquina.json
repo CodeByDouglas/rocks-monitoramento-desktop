@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-29T14:43:41.312270",
+  "machine_info": {
+    "hostname": "Recepcao",
+    "mac_address": "50-A1-32-1E-44-FC",
+    "operating_system": "Windows 11 (11)",
+    "type": "server"
+  },
+  "configuration": {
+    "machine_name": "Máquina Teste",
+    "monitored_status": {
+      "cpu": true,
+      "ram": true,
+      "disco": true,
+      "rede": true,
+      "processos": true,
+      "temperatura": true
+    },
+    "update_frequency": 10,
+    "notifications": true,
+    "start_with_os": true
+  }
+}

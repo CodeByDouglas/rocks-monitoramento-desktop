@@ -1,0 +1,481 @@
+2025-08-28 15:25:39,152 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:25:40,085 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:25:53,133 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:25:53,153 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com
+2025-08-28 15:25:54,827 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:32:51,480 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:32:52,481 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:33:10,597 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:33:10,748 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:33:12,575 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:35:50,520 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:35:53,005 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:36:05,232 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:36:05,365 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:36:07,026 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:50:42,435 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:50:43,545 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:51:10,499 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:51:10,843 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:51:12,550 - api.auth_service - INFO - Tipo de máquina não especificado, usando padrão: pc
+2025-08-28 15:51:12,550 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:52:54,850 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:52:56,602 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:53:13,036 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:53:13,210 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:53:14,897 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 15:53:14,897 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:54:26,709 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:54:27,472 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:54:32,543 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:54:32,745 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:54:34,300 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 15:54:34,301 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:57:56,219 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:57:57,363 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:58:09,652 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:58:09,925 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:58:11,896 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 15:58:11,896 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:58:59,291 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:59:00,322 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:59:06,493 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:59:06,690 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:59:08,447 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 15:59:08,448 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 15:59:36,847 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 15:59:37,242 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 15:59:43,551 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 15:59:43,719 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 15:59:45,467 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 15:59:45,468 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:00:20,315 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:00:21,364 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:00:25,988 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:00:26,221 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:00:27,976 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:00:27,977 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:02:47,124 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:02:48,128 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:02:52,781 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:02:53,059 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:02:54,806 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:02:54,807 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:03:22,630 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:03:24,990 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:03:48,630 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:03:48,839 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:03:49,845 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:03:49,846 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:05:04,996 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:05:07,153 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:05:23,018 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:05:23,247 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:05:24,908 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:05:24,909 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:05:59,057 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:06:01,345 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:06:12,937 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:06:13,082 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:06:14,614 - api.auth_service - INFO - Tipo de máquina identificado: pc
+2025-08-28 16:06:14,615 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:07:28,122 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:07:28,844 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:07:55,178 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:07:55,496 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:07:57,152 - api.auth_service - INFO - Tipo de máquina identificado: pc
+2025-08-28 16:07:57,153 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:08:36,208 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:08:37,230 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:08:48,886 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:08:49,037 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:08:51,058 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:08:51,059 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:29:12,242 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:29:13,760 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:29:53,911 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:29:54,189 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:29:55,002 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-28 16:30:23,566 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:30:23,567 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:30:23,723 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-28 16:30:33,264 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:30:33,265 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:30:34,182 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-28 16:30:37,971 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:30:37,972 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:30:38,126 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-28 16:33:41,555 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:33:43,492 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:33:51,676 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:33:51,791 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:33:53,764 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:33:53,764 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:34:03,374 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:34:03,374 - interface.workers - ERROR - Erro ao enviar configuração: Usuário não autenticado
+2025-08-28 16:34:53,793 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:34:53,795 - interface.workers - ERROR - Erro ao enviar configuração: Usuário não autenticado
+2025-08-28 16:38:02,738 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:38:03,463 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:38:10,078 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:38:10,410 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:38:12,844 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:38:12,845 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:38:15,458 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:38:15,458 - interface.workers - ERROR - Erro ao enviar configuração: Usuário não autenticado
+2025-08-28 16:39:25,068 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:39:26,275 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:39:32,023 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:39:32,182 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:39:32,185 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443
+2025-08-28 16:39:33,938 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/login HTTP/1.1" 200 361
+2025-08-28 16:39:33,939 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:39:33,940 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:39:35,638 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:39:35,639 - api.auth_service - DEBUG - Verificando autenticação: token=None, is_authenticated=False
+2025-08-28 16:39:35,639 - interface.workers - ERROR - Erro ao enviar configuração: Usuário não autenticado
+2025-08-28 16:42:00,952 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:42:02,926 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:42:10,125 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:42:10,322 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:42:10,325 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443
+2025-08-28 16:42:12,364 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/login HTTP/1.1" 200 361
+2025-08-28 16:42:12,366 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:42:12,369 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:42:14,281 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:42:14,282 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:42:14,283 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': False, 'RAM': True, 'TEMPERATURA': False, 'PROCESSO': True, 'CPU': False}}}
+2025-08-28 16:42:14,284 - interface.workers - ERROR - Erro inesperado ao enviar configuração: APIClient.update_machine_config() missing 1 required positional argument: 'config'
+2025-08-28 16:43:22,295 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:43:23,272 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:43:32,259 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:43:32,401 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:43:32,404 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443
+2025-08-28 16:43:34,084 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/login HTTP/1.1" 200 361
+2025-08-28 16:43:34,086 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:43:34,086 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:43:35,553 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:43:35,553 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:43:35,553 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': False, 'RAM': True, 'TEMPERATURA': False, 'PROCESSO': True, 'CPU': False}}}
+2025-08-28 16:43:35,554 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:43:36,526 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/update_confg_maquina HTTP/1.1" 200 54
+2025-08-28 16:43:36,528 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:44:16,689 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:44:17,878 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:44:27,236 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:44:27,425 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:44:27,429 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443
+2025-08-28 16:44:29,087 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/login HTTP/1.1" 200 361
+2025-08-28 16:44:29,089 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:44:29,089 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:44:35,431 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:44:35,431 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:44:35,432 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 6, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-28 16:44:35,433 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:44:35,688 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/update_confg_maquina HTTP/1.1" 200 54
+2025-08-28 16:44:35,689 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:45:01,728 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:45:02,308 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:45:11,230 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:45:11,461 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:45:11,465 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443
+2025-08-28 16:45:13,198 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/login HTTP/1.1" 200 361
+2025-08-28 16:45:13,200 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:45:13,201 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:45:15,337 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:45:15,338 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:45:15,338 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': False, 'RAM': True, 'TEMPERATURA': False, 'PROCESSO': True, 'CPU': False}}}
+2025-08-28 16:45:15,338 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:45:15,617 - urllib3.connectionpool - DEBUG - https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev:443 "POST /api/update_confg_maquina HTTP/1.1" 200 54
+2025-08-28 16:45:15,618 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:47:29,838 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:47:31,016 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:47:42,445 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:47:42,817 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:47:44,535 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:47:44,535 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:47:49,074 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:47:49,075 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:47:49,075 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-28 16:47:49,076 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:47:49,975 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:49:04,132 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:49:05,069 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:49:12,718 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:49:12,865 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:49:14,548 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:49:14,548 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:49:36,842 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:49:36,842 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:49:36,843 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Servidor Dell 556', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 6, 'iniciarSO': False, 'status': {'DISCO': True, 'REDE': False, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-28 16:49:36,843 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:49:37,831 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:49:37,846 - interface.workers - INFO - Configuração salva em arquivo: configuracao_maquina_20250828_164937.json
+2025-08-28 16:52:07,690 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:52:08,302 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:52:23,411 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:52:23,611 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:52:25,316 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:52:25,316 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:52:27,966 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:52:27,966 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:52:27,967 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': False, 'RAM': True, 'TEMPERATURA': False, 'PROCESSO': True, 'CPU': False}}}
+2025-08-28 16:52:27,967 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:52:28,196 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:52:28,211 - interface.workers - INFO - Configuração salva em arquivo: configuracao_maquina_20250828_165228.json
+2025-08-28 16:53:51,940 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-28 16:53:52,638 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-28 16:54:04,180 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-28 16:54:04,390 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-28 16:54:06,107 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-28 16:54:06,108 - interface.workers - INFO - Login bem-sucedido!
+2025-08-28 16:54:28,542 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:54:28,543 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-28 16:54:28,543 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Servidor dell', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 8, 'iniciarSO': False, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-28 16:54:28,545 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-28 16:54:28,813 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-28 16:54:28,822 - interface.workers - INFO - Configuração salva em arquivo: configuracao_maquina_20250828_165428.json
+2025-08-29 11:27:34,393 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:27:35,443 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:28:06,358 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:28:06,625 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:28:07,593 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-29 11:28:12,890 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:28:12,890 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:28:13,176 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-29 11:28:20,696 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:28:20,697 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:28:20,980 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-29 11:28:33,792 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:28:33,793 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:28:35,213 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 11:28:35,214 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 11:29:00,625 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:29:00,626 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 11:29:00,627 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 11:29:00,627 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:29:01,873 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 11:29:01,891 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 11:29:15,179 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:29:15,665 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:29:21,047 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:29:21,228 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:29:22,189 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 11:29:22,191 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 11:29:26,413 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:29:26,414 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 11:29:26,414 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 11:29:26,414 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:29:27,596 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 11:29:27,606 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 11:29:35,951 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:29:36,340 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:29:41,209 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:29:41,385 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:29:43,412 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 11:29:43,413 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 11:29:51,681 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:29:51,682 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 11:29:51,682 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 1, 'iniciarSO': False, 'status': {'DISCO': False, 'REDE': False, 'RAM': False, 'TEMPERATURA': False, 'PROCESSO': False, 'CPU': False}}}
+2025-08-29 11:29:51,683 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:29:51,950 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 11:29:51,956 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 11:41:30,157 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:41:31,003 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:41:40,511 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:41:40,679 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:41:42,787 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 11:41:42,788 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 11:44:22,357 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:44:22,358 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 11:44:22,358 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 11:44:22,358 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:44:24,431 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 11:44:24,445 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 11:44:24,445 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 11:44:24,446 - interface.config_page - ERROR - Erro ao iniciar monitoramento contínuo: 'ConfigPage' object has no attribute 'config'
+2025-08-29 11:45:29,257 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:45:30,051 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:45:37,499 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:45:37,685 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:45:39,936 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 11:45:39,936 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 11:45:44,634 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:45:44,637 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 11:45:44,638 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': False, 'Frequency': 5, 'iniciarSO': False, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 11:45:44,639 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:45:46,002 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 11:45:46,008 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 11:45:46,009 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 11:45:46,031 - interface.config_page - INFO - Monitoramento contínuo iniciado em segundo plano
+2025-08-29 11:45:46,058 - interface.workers - INFO - Iniciando monitoramento contínuo - Frequência: 5s
+2025-08-29 11:47:34,833 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:47:35,897 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:47:43,564 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:47:43,745 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:47:45,811 - interface.workers - ERROR - Erro no login: Erro HTTP 404
+2025-08-29 11:50:49,397 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:50:49,398 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:50:51,493 - interface.workers - ERROR - Erro no login: Erro HTTP 404
+2025-08-29 11:58:52,801 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 11:58:54,024 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 11:59:05,398 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 11:59:05,525 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 11:59:07,602 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 11:59:07,603 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 11:59:11,180 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:59:11,181 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 11:59:11,181 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 11:59:11,181 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 11:59:11,420 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 11:59:11,428 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 11:59:11,429 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 11:59:11,431 - interface.config_page - INFO - Monitoramento contínuo iniciado em segundo plano
+2025-08-29 11:59:11,458 - interface.workers - INFO - Iniciando monitoramento contínuo - Frequência: 5s
+2025-08-29 12:01:28,604 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 12:01:29,744 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 12:01:41,732 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 12:01:41,904 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 12:01:43,975 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 12:01:43,976 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 12:01:52,363 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:01:52,363 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 12:01:52,364 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': False, 'Frequency': 3, 'iniciarSO': False, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 12:01:52,364 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:01:53,692 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 12:01:53,699 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 12:01:53,705 - interface.workers - INFO - Monitoramento contínuo iniciado em segundo plano
+2025-08-29 12:01:53,706 - interface.config_page - INFO - Configuração enviada com sucesso - monitoramento será iniciado
+2025-08-29 12:01:53,707 - interface.workers - INFO - Iniciando monitoramento contínuo - Frequência: 3s
+2025-08-29 12:01:53,773 - interface.workers - INFO - Monitoramento contínuo iniciado
+2025-08-29 12:01:53,773 - interface.config_page - INFO - Monitoramento contínuo iniciado com sucesso
+2025-08-29 12:01:58,734 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:01:59,711 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:06,732 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:07,310 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:13,183 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:13,652 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:20,809 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:21,327 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:27,257 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:28,130 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:35,173 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:35,893 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:42,608 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:43,418 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:50,001 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:50,728 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:02:57,192 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:02:58,103 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:06,262 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:08,048 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:15,404 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:16,242 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:24,584 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:25,419 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:32,343 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:33,493 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:41,102 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:42,106 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:49,087 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:49,885 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:03:57,371 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:03:58,277 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:04:05,117 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:04:05,977 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:04:12,709 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:04:13,670 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:04:21,671 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:04:22,134 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:04:28,020 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:04:28,583 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:06:43,991 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 12:06:45,300 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 12:06:52,005 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 12:06:52,205 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 12:06:54,215 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 12:06:54,215 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 12:07:07,871 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:07:07,872 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 12:07:07,872 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': False, 'Frequency': 10, 'iniciarSO': False, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 12:07:07,872 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:07:09,185 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 12:07:09,203 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 12:07:09,210 - interface.workers - INFO - Monitoramento contínuo iniciado em segundo plano
+2025-08-29 12:07:09,215 - interface.config_page - INFO - Configuração enviada com sucesso - monitoramento será iniciado
+2025-08-29 12:07:09,217 - interface.workers - INFO - Iniciando monitoramento contínuo - Frequência: 10s
+2025-08-29 12:07:09,268 - interface.workers - INFO - Monitoramento contínuo iniciado
+2025-08-29 12:07:09,269 - interface.config_page - INFO - Monitoramento contínuo iniciado com sucesso
+2025-08-29 12:07:11,278 - interface.config_page - INFO - Fechando janela de configuração - monitoramento continua em segundo plano
+2025-08-29 12:07:21,243 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:07:22,212 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:07:36,366 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:07:36,939 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:07:50,004 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:07:50,718 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:08:05,444 - monitoramento.system_monitor - WARNING - Não foi possível obter temperatura do CPU: module 'psutil' has no attribute 'sensors_temperatures'
+2025-08-29 12:08:06,456 - api.api_client - INFO - Enviando dados de status da máquina para a API
+2025-08-29 12:11:43,447 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 12:11:44,462 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 12:11:50,392 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 12:11:50,590 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 12:11:52,777 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 12:11:52,777 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 12:12:01,160 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:12:01,160 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 12:12:01,160 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 10, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 12:12:01,160 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:12:01,389 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 12:12:01,410 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 12:12:01,412 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 12:12:01,414 - interface.config_page - ERROR - Erro ao iniciar monitoramento contínuo: 'SystemMonitoringWorker' object has no attribute 'setDaemon'
+2025-08-29 12:13:57,478 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 12:13:59,239 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 12:14:08,268 - interface.workers - INFO - Tentando login - Email: configuracao_maquina.json
+2025-08-29 12:14:08,515 - api.api_client - INFO - Tentando login para usuário: configuracao_maquina.json - SO: Windows 11 (11)
+2025-08-29 12:14:11,718 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-29 12:14:15,480 - interface.workers - INFO - Tentando login - Email: configuracao_maquina.json
+2025-08-29 12:14:15,481 - api.api_client - INFO - Tentando login para usuário: configuracao_maquina.json - SO: Windows 11 (11)
+2025-08-29 12:14:16,627 - interface.workers - ERROR - Erro no login: Erro HTTP 401
+2025-08-29 12:14:25,026 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 12:14:25,027 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 12:14:26,359 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 12:14:26,360 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 12:14:36,319 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:14:36,319 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 12:14:36,320 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 5, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 12:14:36,320 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:14:37,658 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 12:14:37,665 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 12:14:37,665 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 12:14:37,686 - interface.config_page - INFO - Script de monitoramento iniciado em processo separado
+2025-08-29 12:19:42,958 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 12:19:44,687 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 12:19:49,717 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 12:19:49,955 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 12:19:50,978 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 12:19:50,979 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 12:20:00,165 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:20:00,166 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 12:20:00,166 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': False, 'Frequency': 10, 'iniciarSO': False, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 12:20:00,166 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 12:20:00,323 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 12:20:00,333 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 12:20:00,334 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 12:20:00,355 - interface.config_page - INFO - Script de monitoramento iniciado em processo separado
+2025-08-29 14:43:06,555 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-08-29 14:43:07,471 - __main__ - INFO - Aplicação iniciada com sucesso
+2025-08-29 14:43:23,947 - interface.workers - INFO - Tentando login - Email: teste@rocks.com
+2025-08-29 14:43:24,285 - api.api_client - INFO - Tentando login para usuário: teste@rocks.com - SO: Windows 11 (11)
+2025-08-29 14:43:26,583 - api.auth_service - INFO - Tipo de máquina identificado: server
+2025-08-29 14:43:26,584 - interface.workers - INFO - Login bem-sucedido!
+2025-08-29 14:43:40,021 - interface.workers - INFO - Enviando configuração da máquina para a API
+2025-08-29 14:43:40,021 - api.auth_service - INFO - Enviando configuração da máquina (sem verificação de token)
+2025-08-29 14:43:40,022 - api.auth_service - INFO - Enviando configuração da máquina: {'data': {'Nome': 'Máquina Teste', 'MAC': '50-A1-32-1E-44-FC', 'type': 'server', 'Notificar': True, 'Frequency': 10, 'iniciarSO': True, 'status': {'DISCO': True, 'REDE': True, 'RAM': True, 'TEMPERATURA': True, 'PROCESSO': True, 'CPU': True}}}
+2025-08-29 14:43:40,022 - api.api_client - INFO - Enviando configuração da máquina para a API
+2025-08-29 14:43:41,304 - interface.workers - INFO - Configuração enviada com sucesso
+2025-08-29 14:43:41,320 - interface.workers - INFO - Configuração salva/atualizada em arquivo: configuracao_maquina.json
+2025-08-29 14:43:41,321 - interface.config_page - INFO - Configuração enviada com sucesso - iniciando monitoramento contínuo
+2025-08-29 14:43:41,351 - interface.config_page - INFO - Script de monitoramento iniciado em processo separado
+2025-09-01 18:13:18,921 - __main__ - INFO - Iniciando aplicação de monitoramento Rocks
+2025-09-01 18:13:20,045 - __main__ - INFO - Aplicação iniciada com sucesso

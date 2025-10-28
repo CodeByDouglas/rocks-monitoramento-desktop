@@ -1,0 +1,8 @@
+# Dependências principais
+psutil>=5.9.0          # Monitoramento do sistema
+PySide6>=6.5.0         # Interface gráfica
+requests>=2.31.0       # Requisições HTTP
+
+# Dependências de desenvolvimento/teste
+flask>=2.3.0           # Servidor de teste (opcional)
+flask-cors>=4.0.0      # CORS para servidor de teste (opcional)

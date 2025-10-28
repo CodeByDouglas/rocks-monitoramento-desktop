@@ -1,0 +1,68 @@
+{
+    "timestamp": "2025-08-28T10:54:16.706478",
+    "cpu": {
+        "percentual_total": 5.1,
+        "percentual_por_nucleo": [
+            0.0,
+            39.7,
+            33.8,
+            0.0,
+            3.1,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            10.4,
+            1.6,
+            0.0
+        ],
+        "nucleos_fisicos": 10,
+        "nucleos_logicos": 12
+    },
+    "ram": {
+        "total_gb": 7.7,
+        "disponivel_gb": 1.1,
+        "usado_gb": 6.6,
+        "percentual": 85.9
+    },
+    "disco": {
+        "total_gb": 237.5,
+        "usado_gb": 149.8,
+        "livre_gb": 87.7,
+        "percentual": 63.1
+    },
+    "rede": {
+        "bytes_enviados_mb": 21.69,
+        "bytes_recebidos_mb": 295.92
+    },
+    "temperatura": {
+        "cpu": 58.0
+    },
+    "top_5_processos_cpu": [
+        {
+            "nome": "System Idle Process",
+            "cpu_percent": 1099.8,
+            "memoria_mb": 0.0
+        },
+        {
+            "nome": "Cursor.exe",
+            "cpu_percent": 25.9,
+            "memoria_mb": 377.3
+        },
+        {
+            "nome": "Cursor.exe",
+            "cpu_percent": 25.0,
+            "memoria_mb": 160.2
+        },
+        {
+            "nome": "python3.13.exe",
+            "cpu_percent": 5.3,
+            "memoria_mb": 28.7
+        },
+        {
+            "nome": "svchost.exe",
+            "cpu_percent": 5.0,
+            "memoria_mb": 22.7
+        }
+    ]
+}
