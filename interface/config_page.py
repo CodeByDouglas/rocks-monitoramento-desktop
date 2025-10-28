@@ -308,7 +308,17 @@ class ConfigPage(QWidget):
             import sys
             
             # Iniciar o script de monitoramento em segundo plano
-            script_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "background_monitor.py")
+            script_path = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                "scripts",
+                "background_monitor.py",
+            )
+
+            if not os.path.exists(script_path):
+                logger.error(
+                    "Arquivo de monitoramento contínuo não encontrado: %s", script_path
+                )
+                return
             
             # Executar o script em processo separado
             if sys.platform.startswith('win'):
