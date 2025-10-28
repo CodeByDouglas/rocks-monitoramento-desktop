@@ -7,7 +7,7 @@ from config import *
 
 # Sobrescrever configurações para testes
 API_CONFIG.update({
-    "base_url": "http://localhost:8000",  # Servidor de teste local
+    "base_url": "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev",  # Servidor de teste remoto
     "timeout": 2,  # Timeout muito baixo para testes
     "mock_responses": True,  # Usar respostas mock
 })

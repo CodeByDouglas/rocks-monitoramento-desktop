@@ -38,11 +38,11 @@ def test_login():
     """Testa o endpoint de login diretamente"""
     
     # URL do endpoint
-    url = "https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev/api/login"
+    url = "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev/api/login"
     
     # Dados de teste
-    email = "teste@rocks.com"
-    password = "123456"
+    email = "developer@rocks.com"
+    password = "Dev@Rocks2025"
     mac_address = get_mac_address()
     username = get_username()
     operating_system = get_operating_system()
@@ -53,7 +53,7 @@ def test_login():
         "password": password,
         "mac_address": mac_address,
         "username": username,
-        "operating_system": operating_system
+        "c": operating_system
     }
     
     print("🔐 Testando endpoint de login...")

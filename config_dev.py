@@ -7,7 +7,7 @@ from config import *
 
 # Sobrescrever configurações para desenvolvimento
 API_CONFIG.update({
-    "base_url": "http://localhost:8000",  # Servidor local para desenvolvimento
+    "base_url": "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev",  # Servidor de desenvolvimento remoto
     "timeout": 5,  # Timeout menor para desenvolvimento
 })
 

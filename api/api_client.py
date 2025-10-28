@@ -23,13 +23,23 @@ class APIResponse:
 class APIClient:
     """Cliente para comunicação com a API do servidor"""
     
-    def __init__(self, base_url: str = "https://super-trout-4jgg76qgjvpxcq655-8000.app.github.dev"):
+    def __init__(
+        self,
+        base_url: str = "https://wretched-casket-7vrr9w7rv5q5fxjp5-8000.app.github.dev",
+    ):
         self.base_url = base_url.rstrip('/')
         self.session = requests.Session()
         self.session.headers.update({
             "Content-Type": "application/json",
             "User-Agent": "Rocks-Monitoramento-Desktop/1.0"
         })
+
+    def set_auth_token(self, token: Optional[str]):
+        """Atualiza o header Authorization padrão da sessão."""
+        if token:
+            self.session.headers["Authorization"] = f"Bearer {token}"
+        else:
+            self.session.headers.pop("Authorization", None)
     
     def _make_request(self, method: str, endpoint: str, data: Optional[Dict] = None, 
                      timeout: int = 10) -> APIResponse:
@@ -92,29 +102,36 @@ class APIClient:
     
     def send_system_data(self, system_data: Dict[str, Any], auth_token: Optional[str] = None) -> APIResponse:
         """Envia dados do sistema para a API"""
-        if auth_token:
-            self.session.headers.update({"Authorization": f"Bearer {auth_token}"})
-        
+        if auth_token is not None:
+            self.set_auth_token(auth_token)
+
         logger.info("Enviando dados do sistema para a API")
-        return self._make_request("POST", "/api/system-data", data=system_data)
+        payload = {"data": system_data}
+        return self.update_machine_status(payload)
     
     def health_check(self) -> APIResponse:
         """Verifica se a API está funcionando"""
         return self._make_request("GET", "/api/health")
     
-    def update_machine_config(self, config_data: dict) -> APIResponse:
+    def update_machine_config(self, config_data: dict, auth_token: Optional[str] = None) -> APIResponse:
         """Atualiza a configuração da máquina"""
+        if auth_token is not None:
+            self.set_auth_token(auth_token)
+
         logger.info("Enviando configuração da máquina para a API")
         return self._make_request("POST", "/api/update_confg_maquina", data=config_data)
-    
-    def update_machine_status(self, status_data: dict) -> APIResponse:
+
+    def update_machine_status(self, status_data: dict, auth_token: Optional[str] = None) -> APIResponse:
         """Atualiza o status da máquina (dados de monitoramento)"""
+        if auth_token is not None:
+            self.set_auth_token(auth_token)
+
         logger.info("Enviando dados de status da máquina para a API")
         return self._make_request("PUT", "/api/maquina/status", data=status_data)
-    
+
     def get_machine_config(self, mac_address: str, auth_token: Optional[str] = None) -> APIResponse:
         """Obtém configuração da máquina"""
-        if auth_token:
-            self.session.headers.update({"Authorization": f"Bearer {auth_token}"})
-        
+        if auth_token is not None:
+            self.set_auth_token(auth_token)
+
         return self._make_request("GET", f"/api/machine/{mac_address}")

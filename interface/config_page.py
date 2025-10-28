@@ -12,6 +12,7 @@ from .utils import get_logo_path, logo_exists
 
 import logging
 import os
+from config import FILE_CONFIG
 logger = logging.getLogger(__name__)
 
 class ConfigPage(QWidget):
@@ -19,6 +20,7 @@ class ConfigPage(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
         self.parent = parent
+        self.monitor_process = None
         self.setup_ui()
         
     def setup_ui(self):
@@ -307,12 +309,18 @@ class ConfigPage(QWidget):
             import subprocess
             import sys
             
+            if self.monitor_process and self.monitor_process.poll() is None:
+                logger.info("Processo de monitoramento já está em execução")
+                return
+
             # Iniciar o script de monitoramento em segundo plano
             script_path = os.path.join(
                 os.path.dirname(os.path.dirname(__file__)),
-                "scripts",
-                "background_monitor.py",
+                FILE_CONFIG.get("background_monitor_script", "scripts/background_monitor.py")
             )
+
+            # O caminho em FILE_CONFIG pode ser relativo; normalizar para caminho absoluto
+            script_path = os.path.abspath(script_path)
 
             if not os.path.exists(script_path):
                 logger.error(
@@ -323,16 +331,20 @@ class ConfigPage(QWidget):
             # Executar o script em processo separado
             if sys.platform.startswith('win'):
                 # Windows - usar pythonw para executar sem console
-                subprocess.Popen([sys.executable, script_path], 
-                               creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
-                               stdout=subprocess.DEVNULL,
-                               stderr=subprocess.DEVNULL)
+                self.monitor_process = subprocess.Popen(
+                    [sys.executable, script_path],
+                    creationflags=subprocess.CREATE_NEW_PROCESS_GROUP,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                )
             else:
                 # Linux/Mac
-                subprocess.Popen([sys.executable, script_path],
-                               stdout=subprocess.DEVNULL,
-                               stderr=subprocess.DEVNULL)
-            
+                self.monitor_process = subprocess.Popen(
+                    [sys.executable, script_path],
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                )
+
             logger.info("Script de monitoramento iniciado em processo separado")
             
         except Exception as e:

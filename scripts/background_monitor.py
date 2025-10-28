@@ -17,7 +17,6 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from config import FILE_CONFIG, LOGGING_CONFIG
 from api.auth_service import AuthService
-from api.api_client import APIClient
 from monitoramento.system_monitor import SystemMonitor
 
 # Configurar logging usando as configurações centralizadas
@@ -45,7 +44,7 @@ class BackgroundMonitor:
         # Inicializar serviços
         self.auth_service = AuthService()
         self.system_monitor = SystemMonitor()
-        self.api_client = APIClient()
+        self.api_client = self.auth_service.api_client
         
         logger.info(f"Background monitor inicializado - Frequência: {self.frequency}s")
     
@@ -111,9 +110,11 @@ class BackgroundMonitor:
                 data["top_5_processos_cpu"] = self.system_monitor.get_top_processes()
             
             # Informações da máquina
+            mac_address = self.auth_service.get_mac_address()
             data["machine_info"] = {
                 "hostname": self.auth_service.get_hostname(),
-                "mac_address": self.auth_service.get_mac_address(),
+                "mac_address": mac_address,
+                "mac": mac_address,
                 "operating_system": self.auth_service.get_operating_system(),
                 "type": self.auth_service.get_machine_type()
             }
@@ -136,7 +137,15 @@ class BackgroundMonitor:
             }
             
             # Enviar para a API
-            response = self.api_client.update_machine_status(payload)
+            token = self.auth_service.get_auth_token()
+            if not token:
+                logger.error("Monitor não autenticado. Não é possível enviar dados.")
+                return
+
+            response = self.api_client.update_machine_status(
+                payload,
+                auth_token=token
+            )
             
             if response.success:
                 logger.info("Dados enviados com sucesso para a API")
